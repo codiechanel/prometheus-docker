@@ -1,3 +1,5 @@
-FROM quay.io/prometheus/prometheus
-EXPOSE 9090
-ENTRYPOINT ["sh"]
+FROM nginx
+EXPOSE 3000
+EXPOSE 443
+WORKDIR /etc/nginx
+CMD ["nginx"]
