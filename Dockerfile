@@ -16,5 +16,4 @@ RUN sudo add-apt-repository \
    stable"
 RUN sudo apt-get update
 RUN sudo apt-get -y install  docker-ce
-RUN sudo service docker start
 CMD [ "sh" ]
