@@ -10,5 +10,9 @@ then once inside the container, start the docker daemon
 
 test docker commands
 
+`docker run hello-world`
+
+or
+
 `docker info`
 
